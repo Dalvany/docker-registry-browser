@@ -23,5 +23,9 @@ Note : it does not support authentication
 ## Feature
 * Filter image tree
 
+## Screenshot
+
+![screenshot 1](screenshots/screenshot1.png)
+
 ## TODO
 * Delete tag
