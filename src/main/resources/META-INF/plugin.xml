@@ -1,7 +1,8 @@
 <idea-plugin>
     <id>docker.registry.browser</id>
     <name>Docker registry browser</name>
-    <vendor>Dalvany</vendor>
+    <vendor url="https://github.com/Dalvany/docker-registry-browser">Dalvany</vendor>
+
 
     <description><![CDATA[
     This plugin allow to browse and search through
