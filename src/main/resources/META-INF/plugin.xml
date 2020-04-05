@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>docker.registry.browser</id>
+    <name>Docker registry browser</name>
+    <vendor>Dalvany</vendor>
+
+    <description><![CDATA[
+    This plugin allow to browse and search through
+    private docker registries.
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <!--<depends optional="true">Docker</depends> -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <toolWindow id="Docker registry browser" anchor="right"
+                    factoryClass="org.registry.RegistryBrowserFactory"/>
+        <applicationService serviceImplementation="org.registry.configuration.RegistriesService"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
