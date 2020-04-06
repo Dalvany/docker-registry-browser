@@ -29,3 +29,4 @@ Note : it does not support authentication
 
 ## TODO
 * Delete tag
+* Paginated catalog and tag ?
