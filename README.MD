@@ -1,5 +1,5 @@
 # Private docker registry browser
-This plugin allow to browse and search [private docker registry](https://docs.docker.com/registry/).  
+This intellij plugin allow to browse and search [private docker registry](https://docs.docker.com/registry/).  
 It use [registry api v2](https://docs.docker.com/registry/spec/api/) to display registry tree, image tags and basic
 image information.
 
